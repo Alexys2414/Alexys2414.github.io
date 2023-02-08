@@ -137,8 +137,8 @@ head {
     width: 35%;
     float: right;
   }
-    #page-footer{
-      height: 100px;
+    #page-footer{    
+      height: 260px;
       width: 100%;
       background-color: #333;
       color: white;
