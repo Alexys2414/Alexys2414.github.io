@@ -153,3 +153,8 @@ head {
         height: 50px;
       }
     }
+  .tabla{
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
