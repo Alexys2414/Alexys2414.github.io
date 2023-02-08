@@ -154,3 +154,11 @@ head {
     border: 2px solid black;
     margin: 0 auto;
   }
+.texto-centro{
+    text-align: center;
+  }
+  .texto-tabla{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
