@@ -14,6 +14,11 @@ body {
   .Imagentexto{
     display: block;
     width: 70%;
+  }
+  .Imagensoluciones{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
   }    
   section::after {
       content: "";
@@ -65,7 +70,7 @@ margin: 0 auto;
 }
 #imagen-enlaze img:hover{
   cursor:crosshair;
-  width: 95%;
+  width: 90%;
   opacity: 1;
   filter: contrast(120%);
 }
@@ -119,7 +124,7 @@ li{
 }
 .texto-inicial{
   float: left;
-  padding-right: 10%;
+  padding-right: 5%;
   padding-left: 60px;
 }
 .texto-entradilla{
