@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+#titulo-pagina{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+#Bloque-Derecha, #Bloque-Centro, #Bloque-Izquierda {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: block;
+    box-sizing: border-box;
+}
+#Bloque-Derecha, #Bloque-Izquierda {
+    background-color: #eda6d8;
+}
+#texto-titulo{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
