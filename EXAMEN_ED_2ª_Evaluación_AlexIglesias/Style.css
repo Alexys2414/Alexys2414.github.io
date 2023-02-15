@@ -6,7 +6,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #eae6e6;
     font-family: Arial, sans-serif;
 }
 #Bloque-Derecha, #Bloque-Centro, #Bloque-Izquierda {
@@ -18,11 +18,16 @@ body {
     box-sizing: border-box;
 }
 #Bloque-Derecha, #Bloque-Izquierda {
-    background-color: #eda6d8;
+    background-color: #f6d1de;
 }
 #texto-titulo{
     font-family: Arial, sans-serif;
     font-weight: bold;
+}
+
+#Bloque-Centro{
+    background-color: #f3a8c2;
+    color: white;
 }
 img {
     max-width: 100%;
