@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="Imagenes/iconoAnimalCrss.png" type="image/x-icon">
+    <title>Alex Iglesias Fernandez</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+
+        <img src="Imagenes/viewportsize.jpg" alt="ViewportSize">
+        <h1>Multidevice viewport size</h1>
+    </header>
+
+    <main>
+        <p>Viewport dimensions W x H</p>
+        <p>Viewport Size... <span id="viewportSize"></span></p>
+    </main>
+
+    <footer>
+        <div>
+            <p>Alex Iglesias Fernandez</p>
+        </div>
+        <div>
+            <p>Fecha: <span id="Fecha"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('viewportSize').textContent = window.innerWidth + ' x ' + window.innerHeight;
+
+        var currentDate = new Date();
+        document.getElementById('Fecha').textContent = currentDate.toLocaleDateString();
+    </script>
+</body>
+</html>
